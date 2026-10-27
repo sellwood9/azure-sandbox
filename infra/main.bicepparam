@@ -7,3 +7,4 @@ param cognitiveUserAssignmentName = '8137da55-683e-4498-35f3-98b07e82d23a'
 // Personal details stay out of git; set these in the shell before deploying.
 param budgetContactEmails = [readEnvironmentVariable('BUDGET_CONTACT_EMAIL')]
 param claudeOrganizationName = readEnvironmentVariable('CLAUDE_ORGANIZATION_NAME')
+param deployHaiku = true
